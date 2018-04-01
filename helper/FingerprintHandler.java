@@ -1,4 +1,3 @@
-package com.app.noan.helper;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
