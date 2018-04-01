@@ -16,14 +16,6 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.app.noan.R;
-import com.app.noan.activity.HomeActivity;
-import com.app.noan.model.FingurePrintAuthentication;
-import com.app.noan.model.LoginResponse;
-import com.app.noan.retrofit_api.APILogin;
-import com.app.noan.retrofit_api.ApiClient;
-import com.app.noan.utils.MyUtility;
-import com.google.firebase.iid.FirebaseInstanceId;
 
 import java.util.HashMap;
 import java.util.Map;
