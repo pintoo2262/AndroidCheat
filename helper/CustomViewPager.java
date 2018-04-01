@@ -1,4 +1,3 @@
-package com.app.noan.helper;
 
 import android.content.Context;
 import android.support.v4.view.ViewPager;
@@ -6,7 +5,6 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 
 /**
- * Created by smn on 5/3/18.
  */
  public class CustomViewPager extends ViewPager {
     private Boolean disable = false;
