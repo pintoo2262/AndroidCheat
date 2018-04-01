@@ -1,4 +1,3 @@
-package com.app.noan.helper;
 
 import android.support.v4.widget.NestedScrollView;
 import android.support.v7.widget.LinearLayoutManager;
