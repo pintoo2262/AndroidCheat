@@ -1,4 +1,3 @@
-package com.app.noan.helper;
 
 import android.content.Context;
 import android.net.ConnectivityManager;
