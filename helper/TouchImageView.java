@@ -1,4 +1,3 @@
-package com.app.noan.helper;
 
 import android.annotation.TargetApi;
 import android.content.Context;
