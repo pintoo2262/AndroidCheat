@@ -1,0 +1,166 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/btn_bordercolor</item>
+        <item name="actionMenuTextColor">@color/black</item>
+    </style>
+
+
+    <style name="btnDarkStyle" parent="@android:style/Widget.Button">
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Large</item>
+        <item name="android:background">@drawable/btnsquare</item>
+        <item name="android:textColor">@color/btn_bgwhite</item>
+        <item name="android:padding">@dimen/padding_8dp</item>
+    </style>
+
+    <style name="btnWhiteStyle" parent="@android:style/Widget.Button">
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Large</item>
+        <item name="android:textColor">@color/btn_txtcolor</item>
+        <item name="android:background">@drawable/btnwhitesquare</item>
+        <item name="android:padding">@dimen/padding_8dp</item>
+    </style>
+
+
+    <style name="btnWhite1" parent="@android:style/Widget.Button">
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Large</item>
+        <item name="android:textColor">@color/btn_bgwhite</item>
+        <item name="android:background">@drawable/btn_appbgsquare</item>
+        <item name="android:padding">@dimen/padding_8dp</item>
+    </style>
+
+
+    <style name="btnWhiteStyleNobg" parent="@android:style/Widget.Button">
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Large</item>
+        <item name="android:textColor">@color/btn_txtcolor</item>
+        <item name="android:background">@drawable/btnsquare1</item>
+        <item name="android:padding">@dimen/padding_8dp</item>
+    </style>
+
+
+    <style name="edtStyle" parent="@android:style/Widget.EditText">
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Medium</item>
+        <item name="android:textColorHint">@color/btn_bordercolor</item>
+        <item name="android:textColor">@color/edt_inputtextcolor</item>
+        <item name="android:layout_height">?android:actionBarSize</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:textSize">@dimen/txt_B_14</item>
+        <item name="android:background">@drawable/ed_border_clear</item>
+        <item name="android:drawablePadding">@dimen/padding_12dp</item>
+        <item name="android:paddingLeft">@dimen/padding_16dp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="edtStyle1" parent="@android:style/Widget.EditText">
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Medium</item>
+        <item name="android:textColorHint">@color/btn_bordercolor</item>
+        <item name="android:textColor">@color/edt_inputtextcolor</item>
+        <item name="android:layout_height">?android:actionBarSize</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:drawablePadding">@dimen/padding_12dp</item>
+        <item name="android:padding">@dimen/padding_12dp</item>
+        <item name="android:paddingLeft">@dimen/padding_16dp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+
+    <style name="txtStylNormal" parent="@android:style/Widget.TextView">
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Medium</item>
+        <item name="android:textColor">@color/edt_inputtextcolor</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColorLink">@color/linkColor</item>
+    </style>
+
+
+    <style name="txtStylNormalNoSingleline" parent="@android:style/Widget.TextView">
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Medium</item>
+        <item name="android:textColor">@color/edt_inputtextcolor</item>
+        <item name="android:textColorLink">@color/linkColor</item>
+    </style>
+
+
+    <style name="Theme.Transparent" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@android:color/darker_gray</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/btn_bgdark</item>
+    </style>
+
+    <style name="WhiteCheck">
+        <item name="colorAccent">#fff</item>
+    </style>
+
+
+    <style name="myTabsyle" parent="android:Widget">
+        <item name="tabBackground">@drawable/tab_selector</item>
+        <item name="tabIndicatorColor">@color/tab_background_unselected</item>
+        <item name="tabIndicatorHeight">0dp</item>
+    </style>
+
+    <style name="popupmenustyle" parent="@android:style/Widget.PopupMenu">
+        <item name="android:popupBackground">@drawable/border_black</item>
+        <item name="android:layout_margin">@dimen/dimen_8dp</item>
+        <item name="android:divider">@color/black</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:dividerHeight">@dimen/dimen_4dp</item>
+        <!-- <item name="android:dropDownHorizontalOffset">-4dp</item>
+         <item name="android:dropDownVerticalOffset">4dp</item>-->
+    </style>
+
+
+    <style name="SwitchTheme" parent="Theme.AppCompat.Light">
+        <item name="android:colorControlActivated">#148E13</item>
+    </style>
+
+
+    //New
+
+    <style name="custom_toolbar" parent="Theme.AppCompat.Light">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/toolbartextcolor</item>
+        <item name="android:textSize">@dimen/txt_T_15</item>
+        <!--<item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Small</item>-->
+    </style>
+
+    <style name="custom_bottombar" parent="Theme.AppCompat.Light">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/txt_T_15</item>
+        <!--<item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Small</item>-->
+    </style>
+
+
+    <style name="ActionButton1" parent="@style/Widget.AppCompat.ActionButton">
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="dialog_theme" parent="android:Theme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+    <style name="CircularProgress" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">#EFEFEF</item>
+    </style>
+
+    <style name="Widget.AppCompat.Button.Borderless" parent="Base.Widget.AppCompat.Button.Borderless" />
+
+    <style name="Hyperlink">
+        <item name="android:textColor">#000000</item>
+        <item name="android:background">@drawable/hyperlink</item>
+    </style>
+
+
+</resources>

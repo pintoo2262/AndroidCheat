@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#111111</color>
+    <color name="colorAccent">#DADADA</color>
+
+
+    <color name="placeholder_grey">#AAADC4</color>
+    <color name="placeholder_grey_20">#33AAADC4</color>
+    // text color
+    <color name="linkColor">#051AFF</color>
+    <color name="viewcolor">#99000000</color>
+
+
+
+    // btn
+    <color name="card_bg">#FCFCFC</color>
+    <color name="btn_bgwhite">#F6F6F6</color>
+    <color name="btn_bgdark">#646464</color>
+    <color name="btn_txtcolor">#232323</color>
+    <color name="btn_txtcolor1">#F6F6F6</color>
+    <color name="btn_bordercolor">#BDBDBD</color>
+
+    <color name="btn_reqsell">#474747</color>
+
+
+    //editext
+    <color name="edt_inputtextcolor">#ADADAD</color>
+    <color name="edt_inputtextcolor1">#565656</color>
+
+
+    // toolbar
+    <color name="toolbartextcolor">@android:color/black</color>
+    <color name="toolbarmensize">#111111</color>
+
+
+    <color name="requestSell">#292929</color>
+
+
+    <color name="transpareBlack">#99111111</color>
+    <color name="transpareImage">#B9000000</color>
+    <color name="transparentmain">#D8000000</color>
+    <!--<color name="tab_bottom">#444646</color>-->
+    <color name="tab_bottom">#252525</color>
+    <color name="transparentfilter">#E6000000</color>
+
+
+    <!--MainScreen-->
+    <color name="brandcolor">#DADADA</color>
+    <color name="disableicon">#343434</color>
+
+
+    // Order Tab color
+
+    <color name="tab_background_selected">#686868</color>
+    <color name="tab_background_unselected">#B8B8B8</color>
+
+    <!--SELL MENU SCREEN COLORS-->
+    <color name="colorMenuTitle">#959595</color>
+    <color name="colorMenuLine">#D5D5D5</color>
+
+    <color name="colorActiveListButton">#D8000000</color>
+
+    <color name="colorOffWhite">#F6F6F6</color>
+    <color name="colortitle">#8E8E8E</color>
+
+
+    <color name="colorProductTitle">#737373</color>
+    <color name="colorProductPrice">#333333</color>
+
+
+    <color name="fillCircle">#f5f5f5</color>
+
+    // Listview
+    <color name="listcolor">#686868</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#111111</color>
+    <color name="brown">#9f5a4f</color>
+    <color name="yellow">#feff4d</color>
+    <color name="skin">#ffefdb</color>
+    <color name="pink">#ff77e4</color>
+    <color name="lightblue">#b6fcd5</color>
+    <color name="blue">#0000FF</color>
+
+
+    //new
+
+    <color name="cs_bgcolor">#F4F8FB</color>
+
+
+</resources>

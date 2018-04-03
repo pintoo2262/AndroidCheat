@@ -1,0 +1,491 @@
+<resources>
+    <string name="app_name">Noan</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+          AIzaSyBR06JQMaQrd_Fnqn643-IroL_vL_bg9LI
+    </string>
+
+
+    <string name="error_msg">Sorry! Couldn\'t fetch Product.</string>
+    <string name="btn_retry">Retry</string>
+    <string name="error_msg_no_internet">Not connected to internet</string>
+    <string name="error_msg_timeout">The server took too long to respond</string>
+    <string name="error_msg_unknown">An unexpected error occurred</string>
+    <string name="tap_to_reload">Tap to reload</string>
+    <!--    Permissions    -->
+
+    // Splash 2
+    <string name="login">Log in</string>
+    <string name="loading">Loading</string>
+    <string name="registration">Register</string>
+
+
+    // Login
+    <string name="log_in">L O G\u0020\u0020I N</string>
+    <string name="forogt">Forgot password</string>
+    <string name="login_fingerprint">Log In with Fingerprint</string>
+    <string name="touch">Touch ID for \"NOAN\"</string>
+    <string name="pls_touchmsg">Place Your finger for Login</string>
+    <string name="authentication">Authentication Failed</string>
+    <string name="authentication_msg">Authentication was canceled by the user</string>
+
+
+    <string name="valid_user_name">Enter valid Email Id/Mobile Number</string>
+    <string name="valid_email_address">Enter valid Email Id</string>
+    <string name="valid_password">Enter valid Password </string>
+    <string name="valid_mobileno">Enter valid Mobile Number</string>
+    <string name="valid_paswordmatch">Password Do not match</string>
+
+    <string name="v_username">Enter User Name</string>
+    <string name="v_firstname">Enter First Name</string>
+    <string name="v_lastname">Enter Last Name</string>
+
+
+    // Registration -1
+    <string name="changePassword">Change password</string>
+    <string name="registration_fingerprint">Use Finger Print for Log In</string>
+    <string name="registrationToolbar">C r e a t e \u0020 A c c o u n t</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirmpassword">Confirm Password</string>
+    <string name="mobile">Email/Mobile</string>
+    <string name="mobile1">Mobile Number</string>
+    <string name="termcondition">I agree to </string>
+    <string name="termcondition1">Terms &amp; Conditions</string>
+    <string name="termcondition2">and</string>
+    <string name="termcondition3">Privacy Policy</string>
+    <string name="step2">Step 2</string>
+
+
+    // Registration -2
+
+    <string name="linkwithtxt">Link with Instagram or Twitter</string>
+    <string name="linkwithouttxt">Or</string>
+    <string name="linkwithouttxt1">register without linking account</string>
+
+
+    //Registration Complete
+    <string name="registrationcomplete">C o m p l e t e</string>
+    <string name="username">User Name</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="register">R e g i s t e r</string>
+
+
+    // CompelteAccount
+
+    <string name="registrationcompletToolbar">C o m p l e t e\u0020\u0020A c c o u n t</string>
+    <string name="next">Next</string>
+    <string name="ussize">Us Size</string>
+    <string name="addsize">( You can change and add more size later )</string>
+
+
+    //forgot
+    <string name="forogt_toolbar">F O R G O T\u0020\u0020P A S S W O R D</string>
+    <string name="verify">Verify OTP</string>
+    <string name="otp">otp</string>
+    <string name="btn_Otp_Resend">Resend OTP</string>
+    <string name="et_otp_enterotp">Enter OTP</string>
+    <string name="addpassword">Add New Password</string>
+    <string name="tv_otp_relax">We have sent you OTP through Mail.</string>
+
+
+    <string-array name="country">
+        <item>India</item>
+        <item>AUS</item>
+        <item>NEZ</item>
+    </string-array>
+
+
+    <string name="txtInfo">Tell us your ideal sandals size ,so we can customize your experience </string>
+
+    // termsand condtiion
+
+    <string name="termTitle">Terms and Conditions</string>
+    <string name="feedback">Feedback and support</string>
+    <string name="privacyTitle">Privacy Policy</string>
+
+    <!--Filter screen-->
+    <string name="filter">filter</string>
+    <string name="men">men</string>
+    <string name="women">women</string>
+    <string name="youth">youth</string>
+    <string name="category">Category</string>
+    <string name="brand">Brand</string>
+    <string name="color">Color</string>
+    <string name="applyfilters">apply filters</string>
+
+    // Product Screen
+    <string-array name="productTab">
+        <item>BUY NOW</item>
+        <item>TRENDING</item>
+        <item>EXCLUSIVE</item>
+
+    </string-array>
+
+    //product details scrren
+    <string name="buy">BUY</string>
+    <string name="addyours">Add Yours</string>
+    <string name="instagram">Instagram Photos</string>
+    <string name="moresandals">More Sandals</string>
+
+    <string name="save_need">Save Need</string>
+
+
+    //Product Buy
+    <string name="buyToolbar">B U Y</string>
+    <string name="buycancel">cancel</string>
+    <string name="buyshipto">Ship to :</string>
+    <string name="buypayment">payment :</string>
+    <string name="buyshipingcharge">Shipping Charge \u0024 0</string>
+    <string name="buyremview1">Review Total :</string>
+    <string name="buyremview">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020Review Total</string>
+    <string name="purchase">Purchase</string>
+    <string name="buyreviewtotallink1">\u0024 850 USD (With Shipping)</string>
+
+
+    //buy dialog total cost
+
+    <string name="dialogtotalCost">Total Cost</string>
+    <string name="dialogsubtotal">Subtotal</string>
+    <string name="dialogshippingcost">Shipping</string>
+    <string name="dialognonwalletbalance">NOAN Wallet Balance</string>
+    <string name="dialogtotal">Total</string>
+    <string name="dialogDone">Done</string>
+
+
+    // Address dialog
+    <string name="ShipTo">Ship To</string>
+    <string name="New_address">New Address</string>
+    <string name="New_done">done</string>
+
+    <string name="Add_Credit_card">Add Credit card</string>
+    <string name="Add_Credit_billingAddress">Billing Address</string>
+
+
+    // payment dialog
+    <string name="Payment_info">Payment Information</string>
+
+
+    // Expore Fragment // Collecetions
+    <string name="collection">C o l l e c t i o n s</string>
+    <string name="ownercollectionDetails">Collection</string>
+    <string name="ownercollection">Owner\'s Collections </string>
+    <string name="reuestsell">R e q u e s t\u0020\u0020to\u0020\u0020s e l l</string>
+    <string name="reuestinfo">Complete and submit the form below.We`ll notify you once you`re approved!</string>
+    <string name="posted">Posted by Noan</string>
+
+    // Reuest to Sell
+    <string name="submit">Submit</string>
+    <string name="personalinfo">P e r s o n a l\u0020\u0020I n f o</string>
+    <string name="returnaddress">R e t u r n\u0020\u0020A d d r e s s</string>
+    <string name="seller101">S e l l e r\u0020\u00201 0 1</string>
+    <string name="linksociakaccount">L i n k\u0020\u0020S o c i a l\u0020\u0020A c c o u n t s</string>
+    <string name="rq_est">R e q u e s t\u0020\u0020T o\u0020\u0020S e l l</string>
+
+    <string name="i_agree_noncommision">
+        Noan-Commision is 10% + \u0024 10 NOAN has the right to reject the request if it does not comply ther terms and originality of the product.
+    </string>
+
+
+    <!--Sell fragment Setting Screeen-->
+
+    <string name="sell_title">S e l l</string>
+    <string name="sell_for">f o r\u0020\u0020S e l l</string>
+    <string name="addnew">add new</string>
+    <string name="approval_pending">Approval Pending</string>
+    <string name="active_list_title">These products are listed for sale</string>
+
+    <string name="incomplet_list">I n c o m p l e t e\u0020\u0020L i s t i n g</string>
+    <string name="incomplet_error">We are sorry we could not accept below listing. Please modify and submit again.</string>
+    <string name="request_to_sell">Request To Sell An Item</string>
+
+    <string name="received_sell_for">O F F E R\u0020\u0020F O R\u0020\u0020S e l l</string>
+
+
+    <string name="search_by_sku">Search by Sku</string>
+    <string name="help_tips">Find the SKU on the inside tag of the sneaker or the name on the box</string>
+    <string name="search_tips">Search Tips</string>
+    <string name="us_size">us size</string>
+    <string name="box_condition">Box Condition</string>
+    <string name="issues">Issues</string>
+    <string name="other_issues">other issues</string>
+
+    <string name="product_listing">P r o d u c t\u0020\u0020L i s t i n g</string>
+    <string name="retake">retake</string>
+
+
+    <string name="your_listing">Y o u r\u0020L i s t i n g</string>
+    <string name="orderno">Order NO:</string>
+    <string name="needtoconfirm">N e e d\u0020\u0020t o\u0020\u0020c o n f i r m</string>
+    <string name="sold">s o l d</string>
+    <string name="offer1">O f f e r</string>
+    <string name="confirm">c o n f i r m</string>
+    <string name="ship">S h i p</string>
+    <string name="needtoship">N e e d\u0020\u0020T o\u0020\u0020S h i p</string>
+    <string name="generate_prepaid_ups_lable">Generate Prepaid UPS Lable</string>
+    <string name="mark_as_shipped">Mark As Shipped</string>
+    <string name="sure">Sure?</string>
+    <string name="you_have_shipped_the_product">You have shipped the product?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="shipped">s h i p p e d</string>
+
+
+    // personal info
+
+    <string name="personinfo">This info is used to verfiy idenity and deposit earnings after your sandals sell,We will never share it with anyone else</string>
+    <string name="full_namer">Full Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="birthdate">Birthdate</string>
+    <string name="con">Continue</string>
+
+
+    // personal info Address
+
+    <string name="address1">Enter  your return Address</string>
+    <string name="just_info_address">This return address1 will be used for shipping lables we provide</string>
+    <string name="apartment">Apartment,Suite or Building Number</string>
+
+
+    // seller 1
+    <string name="justinfo_seller1">Please review the following examples to avoid lising issues.Each listing is checked by a verification specailist, so getting  familiar with our polices will save you time and help you get approver Quicker.</string>
+    <string name="justinfoseller2">We consider these boxes damaged </string>
+    <string name="justinfosellerinfo2">If any issues in box please mention previously</string>
+    <string name="i_agress">I AGREE</string>
+    <string name="justseller3">Security is Important</string>
+    <string name="justsellerinfo3">Explanatioin about policy will come there</string>
+    <string name="iacceptpolicy">I Accept the Policy</string>
+
+
+    // Links social Acconts
+    <string name="twitter">Connect Twitter</string>
+    <string name="fb">Connect FaceBook</string>
+    <string name="insta">Connect Instagram</string>
+
+
+    <!--Search Screen-->
+    <string name="search">s e a r c h</string>
+    <string name="searchbyname">Search by Name or SKU</string>
+    <string name="search_notfound">No Product Found for this SKU</string>
+    <string name="suggest">Suggest Us !</string>
+    <string name="txtsuggest">Suggest</string>
+
+
+    // Order Activity
+    <string name="orders">O r d e r s</string>
+    <string-array name="orderTab">
+        <item>PURCHASED</item>
+        <item>SOLD</item>
+    </string-array>
+
+    // Purchase fragment
+    <string name="yours_purchase">Your Purchases</string>
+
+
+    // sold Fragment
+    <string name="yours_sold">Your sell</string>
+    <string name="yours_cancelorder">Cancel Order</string>
+
+    // Order Details
+
+    <string name="pstatus">Status:</string>
+    <string name="placedon">Placed On:</string>
+    <string name="expire">Expire On:</string>
+    <string name="shippedon">Shipped On:</string>
+    <string name="delivered">Delivered:</string>
+
+    <string name="productPrice">Product Price :</string>
+    <string name="shippingPrice">Shipping Price :</string>
+    <string name="usernoanWalletBalance">Used Wallet :</string>
+    <string name="orderTotalAmount">Order Total :</string>
+
+    <string name="amount">AMOUNT:</string>
+    <string name="paid">Paid:</string>
+    <string name="Soldby">Sold By:</string>
+    <string name="SoldTo">Sold To:</string>
+
+    // Order return
+    <string name="reason">Reason:</string>
+
+
+    <!--Profile Screeen-->
+    <string-array name="profiletab">
+        <item>NEED</item>
+        <item>MY</item>
+    </string-array>
+
+    <string name="settings">Settings</string>
+    <string name="share">Share</string>
+    <string name="logout">Logout</string>
+    <string name="offer">Buy Now/Offer</string>
+    <string name="lowprice">Low Price</string>
+    <string name="topoffer">Top Offer</string>
+
+    <string-array name="setting">
+        <item>Edit Profile</item>
+        <item>Payment Method Setting</item>
+        <item>Notification Setting</item>
+        <item>Change Default shoes Size</item>
+        <item>FAQ</item>
+        <item>Credits</item>
+        <item>FeedBack and Support</item>
+        <item>Privacy Policy</item>
+        <item>Terms and Conditions</item>
+        <item>FINGERPRINT AUTHENTICATION</item>
+    </string-array>
+
+    // vendor seller
+    <string-array name="vendorsetting">
+        <item>Edit Profile</item>
+        <item>Payment Method Setting</item>
+        <item>Notification Setting</item>
+        <item>FAQ</item>
+        <item>Credits</item>
+        <item>FeedBack and Support</item>
+        <item>Privacy Policy</item>
+        <item>Terms and Conditions</item>
+        <item>FINGERPRINT AUTHENTICATION</item>
+
+    </string-array>
+
+
+    <!--Edit Screeen-->
+    <string name="edit_profile">E d i t\u0020\u0020P r o f i l e</string>
+    <string name="changesImage">Change Image</string>
+    <string name="changesphoto">Change Photo</string>
+    <string name="pls_selection">Please Select source for your photo</string>
+
+    <string name="profile_setting">C h a n g e\u0020\u0020P a s s w o r d</string>
+
+
+    <!--Payment Screeen-->
+    <string name="payment_methode">P a y m e n t\u0020\u0020M e t h o d </string>
+    <string-array name="paymenttab">
+        <item>paypal</item>
+        <item>account</item>
+    </string-array>
+    <string name="paypal_accountId">Paypal Account Id</string>
+    <string name="paypal_accountaddress">Enter Your Paypal Address</string>
+    <string name="save_paypaal">Save</string>
+
+    <!--Neticastion Setting Screeen-->
+    <string name="notificationSetting">Notification Settings</string>
+
+
+    <string-array name="notificationSettinglist">
+        <item>Sandal Size Available</item>
+        <item>Your Sandal Sold</item>
+        <item>Sandal Shipped receipt for varification</item>
+        <item>Sandal Shipped to you</item>
+        <item>Someone liked your Sandal Photos</item>
+        <item>Update  on  your Seller Status</item>
+        <item>Update  on  your Sandal for Sale</item>
+        <item>Update on your Offers</item>
+
+
+    </string-array>
+
+    <!--FAQ Setting Screeen-->
+
+    <string name="sell">sell</string>
+    <string name="Help">help</string>
+
+    <!--Credit Setting Screeen-->
+
+    <string name="paymenthistory">P a y m e n t\u0020\u0020H i s t o r y</string>
+    <string name="available_spend">Available to Spend it will be creadited to you by 1st of next month</string>
+
+
+    <!--Offer fragment Setting Screeen-->
+
+
+    <string name="Text_Offer">You will not be charged unless your offer is accepted by a seller</string>
+
+
+    <string name="Top_offer">TOP OFFER</string>
+    <string name="Lowest_price">LOWEST PRICE</string>
+    <string name="Last_price_sold">LAST PRICES SOLD</string>
+    <string name="your_offer">YOUR OFFER</string>
+    <string name="your_earning">YOUR Earning</string>
+    <string name="your_selling">Selling At</string>
+    <string name="size">S i z e\u002010.0\u0020/\u0020n e w\u0020w i t h \u0020b o x</string>
+    <string name="learnmore">Learn More</string>
+    <string name="sizeitnotforsale">Make an offer even if size not for sale</string>
+
+
+    // second 2
+    <string name="you_will_make">You will make \u0024 150</string>
+    <string name="fee">Fee \u0024 10</string>
+
+    <string name="Lowest_sell_price">LOWEST SELL PRICE</string>
+    <string name="Higesh_sell_price">HIGHEST SELL PRICE</string>
+    <string name="User_max_price">USER MAX OFFERED</string>
+
+
+    <string name="buynow">BUY NOW</string>
+    <string name="tradding">TRENDING</string>
+    <string name="exclusive">EXCLUSIVE</string>
+
+
+    <string name="need">Need</string>
+    <string name="my">My</string>
+    <string name="alert">Alert</string>
+    <string name="load">Loading...</string>
+
+    //
+    <string name="changestoolsbar">Change default shoes size</string>
+    <string name="weoffer">We offer the safest way to buy and sell sandals</string>
+    <string name="startbrowsing">s t a r t\u0020\u0020B r o w s i n g</string>
+    <string name="nameapp">N O A N</string>
+    <string name="safty">S A F E T Y\u0020\u0020\u0020\u0020F I R S T</string>
+    <string name="saft_descrption">All  seller photos are verified  and all purchases are sent to us for verification by our specialists prior  to shipping to you.</string>
+    <string name="true_value">T r u e\u0020\u0020M a r k e t\u0020\u0020V a l u e</string>
+    <string name="true_descrption">We Provide data to help you buy and sell at the right price. You can also make and receive offers to get the true market value.</string>
+    <string name="earn_more">E a r n\u0020\u0020M o r e\u0020\u0020M o n e y</string>
+    <string name="earn_more_desrption">We have the lowest commissions in the resale industry and sellers get paid quickly via Paypal or direct deposit.</string>
+
+    <string name="pls_enter">Please Enter Full Name</string>
+    <string name="pls_enter_phono">Please Enter Phone Number</string>
+    <string name="pls_enter_address">Please Enter Address</string>
+    <string name="pls_enter_unit">Please Enter APIUnit</string>
+    <string name="pls_enter_city">Please Enter City</string>
+    <string name="pls_enter_postcode">Please Enter APost Code</string>
+    <string name="log_in_or_register_to_continue">Log in Or Register to continue</string>
+
+
+    // UserSellerproduct Detail
+    <string name="toolbar_userSellerProduct">Product Details</string>
+    <string name="current_password">Current Password</string>
+    <string name="sellerSwipeValidaiton">Please swipe through each photo before proceeding</string>
+    <string name="street_address">Street Address</string>
+    <string name="delete_address">Delete Address</string>
+    <string name="are_you">Are you sure you want to delete this address?</string>
+
+
+    // Facebook
+
+    <!--FB ID-->
+    <string name="app_id">345933135881871</string>
+    <string name="makeOffer">make an offer</string>
+
+
+    <string name="are_you_product">Are you sure you want to delete this want?</string>
+    <string name="msg_product">This will be deleted from your profile</string>
+    <string name="we_will_alert_you_when_this_is_for_sale_in_the_sizes_you_want">We will alert you when this is for sale in the sizes you want.</string>
+
+
+    // Received Offer DetailsScreen
+    <string name="offerNumber">Offer Number : </string>
+    <string name="productName">Product Name : </string>
+    <string name="offerdate">Offer Date : </string>
+    <string name="offerExpiryDate">Offer Expiry Date : </string>
+    <string name="offerPrice">Offer Price : </string>
+    <string name="buyerusername">Buyer Name : </string>
+
+    <string name="dproductPrice">Product Price : </string>
+    <string name="dshippingPrice">Shipping Price : </string>
+    <string name="dusernoanWalletBalance">Used Wallet : </string>
+    <string name="dorderTotalAmount">Order Total : </string>
+
+
+</resources>

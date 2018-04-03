@@ -1,0 +1,60 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.app.noan.fragment.BuynowFragment">
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.app.noan.fragment.BuynowFragment">
+
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swipeRefreshBuyNow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_sandle"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@color/cs_bgcolor"
+                android:nestedScrollingEnabled="false"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+
+        <Button
+            android:id="@+id/btn_filter"
+            android:layout_width="@dimen/dimen_100dp"
+            android:layout_height="@dimen/dimen_30dp"
+            android:layout_gravity="center|bottom"
+            android:layout_marginBottom="@dimen/margin_10dp"
+            android:background="@drawable/btncircleshap"
+            android:text="@string/filter"
+            android:textAllCaps="true"
+            android:textColor="@color/btn_bgwhite"
+            android:textSize="@dimen/txt_B_14"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <ProgressBar
+        android:id="@+id/main_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <include layout="@layout/error_layout" />
+
+</FrameLayout>
+
+
